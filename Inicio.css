@@ -1,0 +1,229 @@
+.container {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container h1 {
+    color: #0082e6;
+    font-size: 40px;
+  }
+
+  .price {
+    text-align: center;
+ justify-content: center;
+}
+
+.price__table {
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.price__element {
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 10px;
+    width: 350px;
+    padding: 40px;
+    --color-plan: #fff;
+    --color-price: #fff;
+    --bg-cta: blue;
+    --color-cta: #FFF;
+    --color-items: #fff;
+}
+
+/*-------------------------Price Container----------------*/
+
+.subtitle{
+  color: #0082e6;
+    font-size: 40px;
+}
+.price__element--best {
+    width: 350px;
+    padding: 60px 40px;
+    background-color: #0082e6;
+    --color-plan: rgb(255 255 255 / 75%);
+    --color-price: #fff;
+    --bg-cta: rgb(130, 216, 238);
+    --color-cta: #ffffff;
+    --color-items: #fff;
+}
+
+
+.price__name {
+    color: var(--color-plan);
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.price__price {
+    font-size: 2.5rem;
+    color: var(--color-price);
+}
+
+.price__items {
+    margin-top: 35px;
+    display: grid;
+    gap: 1em;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    color: var(--color-items);
+}
+
+.price__cta {
+    display: block;
+    padding: 20px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: var(--bg-cta);
+    font-weight: 600;
+    color: var(--color-cta);
+    box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+}
+
+.imagen-ini-1 {
+    width: 250px;
+  height: 200px;
+}
+
+.boton-img-1 {
+    width: 250px;
+  height: 200px;
+}
+
+.imagen-ini-2 {
+    width: 250px;
+  height: 200px;
+}
+
+.boton-img-2 {
+    width: 250px;
+  height: 200px;
+}
+
+.imagen-ini-3 {
+    width: 250px;
+  height: 200px;
+}
+
+.boton-img-3 {
+    width: 250px;
+  height: 200px;
+}
+
+/*:::::::::::::::: FOOTER ::::::::::::::::*/
+
+footer {
+    background-image: url(imagenes/para-K+.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 40px 0;
+    color: #000000;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    margin: 0 auto;
+    
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-4 {
+    justify-content: center;
+    width: 33.33%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  .social-icons li a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .about__icon {
+      width: 100px;
+      height: 100px;
+      color: #e5e5f7;
+  }
+
+  .slider-frame {
+    width: 90%;
+      height: auto;
+      margin-top: 0%;
+    margin-left: 70px;
+    overflow: hidden;
+  }
+  
+  .slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    
+    animation: slide 20s infinite alternate ease-in-out;
+  }
+  
+  .slider-frame li {
+    width: 100%;
+    list-style: none;
+  }
+  
+  .slider-frame img {
+      object-fit:cover;
+    width: 100%;
+  }
+  
+  @keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+  }

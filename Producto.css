@@ -1,0 +1,83 @@
+footer {
+    background-image: url(imagenes/para-K+.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 40px 0;
+    color: #000000;
+    background-repeat: no-repeat;
+    z-index: 999;
+
+  }
+  
+  .container {
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-4 {
+    justify-content: center;
+    width:33.33%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  footer h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  .social-icons li a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .about__icon {
+    width: 100px;
+    height: 100px;
+    color: #e5e5f7;
+  }
+
+  /*----------------------------- TAMAÑO DE IMAGEN ------------------*/
+  .img-item {
+    width: 100px;
+    height: 100px;
+  }
+
+  .item {
+    height: 250px;
+    width: 500px;
+  }

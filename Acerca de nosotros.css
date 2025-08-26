@@ -1,0 +1,234 @@
+/*:::::::::::::: Historia ::::::::::::*/
+
+.historia h2{
+    padding: 1rem;
+    }
+    .img-nosotros{
+    float: right;
+    padding: 2rem;
+    justify-content: center;
+    border-radius: 12px;
+    }
+    .historia {
+        height: 600px;
+        width: 100%;
+        background-color: #fff;
+        color: #0082e6;
+        font-size: 24px;
+        
+    }
+    .historia p{
+        color: black;
+        padding-top: 3rem;
+        font-size: 19px;
+    }
+
+    /*:::::::::::::: container about :::::::::::::*/
+
+    .about {
+        text-align: center;
+    }
+    
+    .subtitle {
+        font-size: 2.5rem;
+        margin-bottom: 25px;
+        color: #0082e6;
+    }
+    
+    
+    .about__paragraph {
+        line-height: 1.7;
+        padding: 4rem;
+        justify-content: center;
+        margin: 1rem;
+        text-align: center;
+        font-size: 17px;
+    }
+    
+    .about__iconshistory {
+        background-color: #FFF;
+        text-align: center;
+        border-radius: 10px;
+        width: 250px;
+        padding: 10px;
+        --color-plan: #fff;
+        --color-price: #fff;
+        --bg-cta: rgb(141, 18, 255);
+        --color-cta: #FFF;
+        --color-items: #fff;
+        display: grid;
+        gap: 1em;
+        justify-items: center;
+        width: 200px;
+        overflow: hidden;
+        margin: 0 auto;
+        height: 475px;
+    }
+
+    .about__icons {
+        color: black;
+        
+    }
+    .about__icon {
+        width: 150px;
+        height: 150px;
+        color: #0082e6;
+    }
+
+/*::::::::::::: Para la mision y vision horizontal ::::::::::*/
+    .about__main {
+    
+     display: flex;
+    flex-direction: row;
+    }     
+          
+.about__title{
+ margin-right: 10px;  /* Ajusta el margen entre los valores */
+          }
+    
+    .about__icons {
+    background-color: #FFF;
+    text-align: center;
+    border-radius: 10px;
+    width: 350px;
+    padding: 40px;
+    --color-plan: #fff;
+    --color-price: #fff;
+    --bg-cta: blueviolet;
+    --color-cta: #FFF;
+    --color-items: #fff;
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 350px;
+    overflow: hidden;
+    margin: 0 auto ;
+    height: 525px;
+}
+.about__main1 {
+    color: black;
+    justify-content: center;
+    padding-top: 15px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 2em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+.about__icon {
+    width: 100px;
+    height: 100px;
+    color: #e5e5f7;
+}
+
+.about__icons {
+    background-color: #FFF;
+    text-align: center;
+    border-radius: 10px;
+    width: 350px;
+    padding: 40px;
+    --color-plan: #fff;
+    --color-price: #fff;
+    --bg-cta: blueviolet;
+    --color-cta: #FFF;
+    --color-items: #fff;
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 350px;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 525px;
+}
+
+.about__main {
+    color: black;
+    justify-content: center;
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 9em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+/*:::::::::::::::: FOOTER ::::::::::::::::*/
+
+footer {
+    background-image: url(imagenes/para-K+.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 40px 0;
+    color: #000000;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    margin: 0 auto;
+    
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-4 {
+    justify-content: center;
+    width: 33.33%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  .social-icons li a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .about__icon {
+      width: 100px;
+      height: 100px;
+      color: #e5e5f7;
+  }
+
+
+
+
+   

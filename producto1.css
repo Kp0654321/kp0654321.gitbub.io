@@ -1,0 +1,17 @@
+.botom-item{display: block;
+margin: 10px auto;
+border: none;
+background-color: black;
+color: #fff;
+padding: 5px 15px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.yes{
+    background-color: green;
+}
+
+.no{
+    background-color: red;
+}

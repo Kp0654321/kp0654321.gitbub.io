@@ -1,0 +1,139 @@
+*{
+    scrollbar-width: auto; /* Anchura de la barra de desplazamiento (puedes usar "thin", "auto" o "none") */
+    scrollbar-color: #ffffff #ffffff; /* Color de la barra de desplazamiento (puedes especificar el color de fondo y el color del pulgar separados por un espacio) */
+  }
+  
+  /* Estilos adicionales para la barra de desplazamiento */
+  *::-webkit-scrollbar {
+    width: 15px; /* Anchura de la barra de desplazamiento */
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color:#4db7fd; /* Color del pulgar de la barra de desplazamiento */
+  } 
+  
+  *::-webkit-scrollbar-track {
+    background-color: #ffffff; /* Color de fondo de la barra de desplazamiento */
+  }
+
+
+/*Menu de navegacion*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: rgb(130, 216, 238);
+    height: 70px;
+    width: 100%;
+    background-image: url(imagenes/BUSQUEDA.jpg);
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 999;
+}
+
+label.logo{
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    right: 10px
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background: #ffffff99;
+    transform: .5s;
+    border-radius: 50px;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    z-index: 2000;
+}
+
+#check{
+    display: none;
+}
+
+@media(max-width: 952px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .checkbtn {
+        display: block;
+    }
+    #ul{
+        top: 0px;
+        position: fixed;
+        width: 40%;
+        height: 100%;
+        background: #00458a;
+        left: 100%;
+        text-align: center;
+        transform: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 70px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+
+
+
+  
+  
